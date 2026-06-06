@@ -5,7 +5,48 @@
 
 html { scroll-behavior: smooth; }
 * { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-body { overflow-x: hidden; }
+body { overflow-x: hidden; background-color: var(--color-neutral-darkest); }
+
+/* ---------------- Animated constellation background ---------------- */
+#zk-constellation {
+  position: fixed; inset: 0; width: 100%; height: 100%;
+  z-index: 0; pointer-events: none; display: block;
+}
+/* Lift real content above the canvas */
+.zk-nav, main, .zk-footer { position: relative; z-index: 1; }
+
+/* Section grounds become slightly translucent so the constellation glimmers
+   through everywhere — text stays fully readable (particles are dim). */
+.scheme-1 { background-color: rgba(37, 34, 30, 0.84); }
+.scheme-2 { background-color: rgba(13, 10, 5, 0.80); }
+.scheme-3 { background-color: rgba(3, 18, 43, 0.82); }
+/* The hero sits over a fully transparent ground for a vivid, living header. */
+.zk-hero-section { background-color: transparent; }
+/* Cards/marquee keep their transparent fills, so the field shows through them too. */
+
+/* ---------------- Cover hero (full-bleed cinematic image) ---------------- */
+.zk-herox { position: relative; min-height: 90vh; display: flex; align-items: center; overflow: hidden; }
+.zk-herox__bg { position: absolute; inset: 0; z-index: 0; }
+.zk-herox__bg img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.06); will-change: transform; }
+.zk-herox__bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(13,10,5,.50) 0%, rgba(13,10,5,.30) 38%, rgba(13,10,5,.94) 100%); }
+.zk-herox__inner { position: relative; z-index: 1; width: 100%; }
+@media (max-width: 991px) { .zk-herox { min-height: 80vh; } }
+
+/* ---------------- Image sector tiles ---------------- */
+.zk-tilegrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-5); }
+.zk-tile { position: relative; display: block; border-radius: var(--radius-card); overflow: hidden; aspect-ratio: 4 / 3; border: 1px solid var(--scheme-border); text-decoration: none; }
+.zk-tile img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s var(--ease-standard); }
+.zk-tile:hover img { transform: scale(1.07); }
+.zk-tile::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(13,10,5,0) 28%, rgba(13,10,5,.9) 100%); }
+.zk-tile__label { position: absolute; left: var(--space-5); right: var(--space-5); bottom: var(--space-5); z-index: 1; display: flex; align-items: center; gap: var(--space-3); font-family: var(--font-heading); font-weight: var(--fw-bold); font-size: var(--fs-h6); letter-spacing: var(--tracking-heading); color: #fff; }
+.zk-tile__label .material-symbols-rounded { font-size: 24px; color: var(--accent-gold); flex: none; }
+.zk-tile__arrow { margin-left: auto; opacity: .5; transition: transform var(--dur-fast) var(--ease-standard), opacity var(--dur-fast), color var(--dur-fast); }
+.zk-tile:hover .zk-tile__arrow { opacity: 1; transform: translate(3px,-3px); color: var(--accent-gold); }
+@media (max-width: 991px) { .zk-tilegrid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) { .zk-tilegrid { grid-template-columns: 1fr; } }
+
+/* ---------------- Premium stat treatment (gold gradient numerals) ---------------- */
+.zk-statband .zds-stat__value { background: linear-gradient(180deg, #ffffff 0%, var(--accent-gold) 120%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 
 .material-symbols-rounded { font-variation-settings: 'FILL' 1, 'wght' 500, 'opsz' 24; vertical-align: middle; }
 
