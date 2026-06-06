@@ -1,0 +1,57 @@
+/* ZAMP Funds — Enhancement layer (static build).
+   Premium interactivity on top of the faithful design. On-brand: warm-dark
+   grounds, flat color, gold/teal accents, subtle functional motion.
+   All effects respect prefers-reduced-motion. */
+
+html { scroll-behavior: smooth; }
+* { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+body { overflow-x: hidden; }
+
+.material-symbols-rounded { font-variation-settings: 'FILL' 1, 'wght' 500, 'opsz' 24; vertical-align: middle; }
+
+.zk-progress {
+  position: fixed; top: 0; left: 0; height: 2px; width: 0%;
+  background: linear-gradient(90deg, var(--accent-gold), var(--accent-teal));
+  z-index: 100; transition: width 0.08s linear; pointer-events: none;
+}
+
+.zk-nav { transition: min-height var(--dur-fast) var(--ease-standard), background var(--dur-medium) var(--ease-standard), backdrop-filter var(--dur-medium) var(--ease-standard); }
+.zk-nav.is-stuck { background: color-mix(in srgb, var(--color-neutral-darkest) 72%, transparent); backdrop-filter: blur(14px) saturate(140%); }
+.zk-nav.is-stuck .zk-nav__inner { min-height: 60px; }
+.zk-nav__inner { transition: min-height var(--dur-fast) var(--ease-standard); }
+
+.zk-nav__mobile { animation: zk-menu-in var(--dur-fast) var(--ease-standard); }
+@keyframes zk-menu-in { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+
+.zk-reveal { will-change: opacity, transform; }
+
+.zds-btn--primary, .zds-btn--accent { transition: transform 0.18s var(--ease-standard), background var(--dur-fast) var(--ease-standard), box-shadow 0.25s var(--ease-standard), border-color var(--dur-fast) var(--ease-standard); }
+
+.zk-pf-grid .zds-card { transition: border-color var(--dur-fast) var(--ease-standard), transform 0.25s var(--ease-standard), box-shadow 0.3s var(--ease-standard); transform-style: preserve-3d; will-change: transform; }
+.zk-pf-grid .zds-card:hover { box-shadow: var(--shadow-lg); }
+
+.zk-pf-grid .zk-pf-item { transition: opacity 0.35s var(--ease-standard), transform 0.35s var(--ease-standard); }
+.zk-pf-grid .zk-pf-item.is-hidden { display: none; }
+.zk-pf-grid .zk-pf-item.is-enter { opacity: 0; transform: translateY(14px) scale(0.98); }
+
+.zk-hero__media img { will-change: transform; }
+.zk-section-head .zds-h2 { position: relative; }
+
+.zk-marquee { overflow: hidden; border-block: 1px solid var(--scheme-border); padding-block: var(--space-6); -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+.zk-marquee__track { display: inline-flex; gap: var(--space-12); white-space: nowrap; animation: zk-marquee 32s linear infinite; will-change: transform; }
+.zk-marquee:hover .zk-marquee__track { animation-play-state: paused; }
+.zk-marquee__item { font-family: var(--font-heading); font-weight: var(--fw-bold); font-size: var(--fs-h5); letter-spacing: var(--tracking-heading); color: var(--scheme-text); opacity: .55; display: inline-flex; align-items: center; gap: var(--space-4); }
+.zk-marquee__item .material-symbols-rounded { font-size: 22px; color: var(--accent-gold); opacity: .9; }
+@keyframes zk-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.zds-stat__value { font-variant-numeric: tabular-nums; }
+.zk-hero__title, .zk-hero__sub, .zk-hero__actions, .zk-hero__tag, .zk-hero__scroll { will-change: opacity, transform; }
+
+a:focus-visible, button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 3px; border-radius: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .zk-marquee__track { animation: none; }
+  .zk-progress { display: none; }
+  .zk-pf-grid .zds-card:hover { transform: none; }
+}

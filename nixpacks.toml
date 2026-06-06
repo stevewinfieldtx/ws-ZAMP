@@ -1,0 +1,7 @@
+# Railway / Nixpacks build config. No install step — zero dependencies.
+[phases.setup]
+nixPkgs = ["nodejs_20"]
+[phases.install]
+cmds = ["echo 'no dependencies to install'"]
+[start]
+cmd = "node server.js"

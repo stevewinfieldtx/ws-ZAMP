@@ -1,0 +1,61 @@
+/* ZAMP Ventures — Spacing, radii, shadow & layout tokens
+   UI style is "sleek": 12px control radius, 16px card/image radius, 1px borders. */
+
+:root {
+  /* ---------- Spacing scale (4px base) ---------- */
+  --space-1: 0.25rem;   /* 4 */
+  --space-2: 0.5rem;    /* 8 */
+  --space-3: 0.75rem;   /* 12 */
+  --space-4: 1rem;      /* 16 */
+  --space-5: 1.25rem;   /* 20 */
+  --space-6: 1.5rem;    /* 24 */
+  --space-8: 2rem;      /* 32 */
+  --space-10: 2.5rem;   /* 40 */
+  --space-12: 3rem;     /* 48 */
+  --space-16: 4rem;     /* 64 */
+  --space-18: 4.5rem;   /* 72 */
+  --space-20: 5rem;     /* 80 */
+  --space-28: 7rem;     /* 112 */
+  --space-30: 7.5rem;   /* 120 */
+
+  /* Section rhythm — vertical padding per breakpoint */
+  --section-pad-y: 4rem;       /* mobile  (py-16) */
+  --section-pad-y-md: 6rem;    /* tablet  (py-24) */
+  --section-pad-y-lg: 7rem;    /* desktop (py-28) */
+  --page-gutter: 5%;           /* horizontal page inset */
+
+  /* ---------- Radii ---------- */
+  --radius-button: 0.75rem;   /* 12px */
+  --radius-tag: 0.375rem;     /* 6px  */
+  --radius-input: 0.75rem;    /* 12px */
+  --radius-badge: 0.75rem;    /* 12px */
+  --radius-card: 1rem;        /* 16px */
+  --radius-image: 1rem;       /* 16px */
+  --radius-checkbox: 0.25rem; /* 4px  */
+  --radius-full: 9999px;
+
+  /* ---------- Borders ---------- */
+  --border-width: 1px;
+  --border-width-strong: 2px;
+
+  /* ---------- Shadows (used sparingly — the system is outlined, not elevated) */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.45);
+
+  /* ---------- Containers / max widths ---------- */
+  --container-xxs: 20rem;
+  --container-xs: 25rem;
+  --container-sm: 30rem;
+  --container-md: 35rem;
+  --container-lg: 48rem;   /* hero / prose column */
+  --container-xl: 64rem;
+  --container-xxl: 80rem;  /* page container */
+
+  /* ---------- Motion ---------- */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1); /* @kind other */
+  --dur-fast: 0.2s; /* @kind other */
+  --dur-medium: 0.4s; /* @kind other */
+  --dur-slow: 0.6s; /* @kind other */
+  --transition-control: all 0.2s ease-in-out; /* @kind other */
+}

@@ -1,0 +1,87 @@
+/* ZAMP Ventures — Color tokens
+   A warm dark theme: near-black + warm brown grounds, deep-navy accent ground,
+   and four chromatic families (Torea Bay blue, Punch coral, Gossamer teal,
+   Golden Tainoi gold). Every scale runs lightest → darkest. */
+
+:root {
+  /* ---------- Neutrals (warm, range from white → warm near-black) ---------- */
+  --color-white: #ffffff;
+  --color-neutral-lightest: #f2f2f2;
+  --color-neutral-lighter: #dadad9;
+  --color-neutral-light: #b6b5b4;
+  --color-neutral: #868482;
+  --color-neutral-dark: #555350;
+  --color-neutral-darker: #25221e;   /* warm brown ground */
+  --color-neutral-darkest: #0d0a05;  /* warm near-black ground */
+
+  /* ---------- Torea Bay — primary brand blue ---------- */
+  --color-torea-bay-lightest: #e6ebf4;
+  --color-torea-bay-lighter: #ced8e9;
+  --color-torea-bay-light: #5477b2;
+  --color-torea-bay: #0b3d91;         /* primary action */
+  --color-torea-bay-dark: #083074;    /* hover */
+  --color-torea-bay-darker: #04183a;
+  --color-torea-bay-darkest: #03122b; /* deep-navy section ground */
+
+  /* ---------- Punch — coral / energy ---------- */
+  --color-punch-lightest: #fbede9;
+  --color-punch-lighter: #f7dbd4;
+  --color-punch-light: #e4836a;
+  --color-punch: #d94f2b;
+  --color-punch-dark: #ad3f22;
+  --color-punch-darker: #561f11;
+  --color-punch-darkest: #41170c;
+
+  /* ---------- Gossamer — teal / growth ---------- */
+  --color-gossamer-lightest: #e6f6f1;
+  --color-gossamer-lighter: #ceede4;
+  --color-gossamer-light: #54c0a0;
+  --color-gossamer: #0ca678;
+  --color-gossamer-dark: #098460;
+  --color-gossamer-darker: #044230;
+  --color-gossamer-darkest: #033124;
+
+  /* ---------- Golden Tainoi — gold / highlight ---------- */
+  --color-golden-tainoi-lightest: #fffaef;
+  --color-golden-tainoi-lighter: #fff5e0;
+  --color-golden-tainoi-light: #ffde93;
+  --color-golden-tainoi: #ffd166;
+  --color-golden-tainoi-dark: #cca751;
+  --color-golden-tainoi-darker: #665328;
+  --color-golden-tainoi-darkest: #4c3e1e;
+
+  /* ---------- Alpha utility tints (over dark grounds) ---------- */
+  --color-white-5: rgba(255, 255, 255, 0.05);
+  --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-white-15: rgba(255, 255, 255, 0.15);
+  --color-white-20: rgba(255, 255, 255, 0.2);
+  --color-white-30: rgba(255, 255, 255, 0.3);
+  --color-white-40: rgba(255, 255, 255, 0.4);
+  --color-white-50: rgba(255, 255, 255, 0.5);
+  --color-white-60: rgba(255, 255, 255, 0.6);
+  --color-black-10: rgba(13, 10, 5, 0.1);
+  --color-black-20: rgba(13, 10, 5, 0.2);
+  --color-black-40: rgba(13, 10, 5, 0.4);
+
+  /* ---------- Semantic aliases (default = primary dark ground) ---------- */
+  --surface-page: var(--color-neutral-darkest);
+  --surface-raised: var(--color-neutral-darker);
+  --surface-accent: var(--color-torea-bay-darkest);
+  --surface-card: transparent;          /* cards are outlined, not filled */
+  --surface-inverse: var(--color-white);
+
+  --text-primary: var(--color-white);
+  --text-muted: var(--color-white-60);
+  --text-on-light: var(--color-neutral-darkest);
+  --text-link: var(--color-white);
+
+  --border-subtle: var(--color-white-20);
+  --border-strong: var(--color-white-40);
+
+  --accent-blue: var(--color-torea-bay);
+  --accent-coral: var(--color-punch);
+  --accent-teal: var(--color-gossamer);
+  --accent-gold: var(--color-golden-tainoi);
+
+  --focus-ring: var(--color-golden-tainoi);
+}

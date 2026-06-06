@@ -1,0 +1,72 @@
+/* ZAMP Ventures — Base element defaults & helpers.
+   Sets the brand fonts on headings/body and seeds default scheme variables
+   on :root so a stray component renders correctly even outside a scheme- block. */
+
+:root {
+  color-scheme: dark;
+
+  /* default scheme vars = scheme-1 (warm brown ground) */
+  --scheme-bg: var(--color-neutral-darker);
+  --scheme-surface: var(--color-neutral-darker);
+  --scheme-text: var(--color-white);
+  --scheme-text-muted: var(--color-white-60);
+  --scheme-border: var(--color-white-20);
+  --scheme-btn-bg: var(--color-white);
+  --scheme-btn-text: var(--color-neutral-darkest);
+  --scheme-btn-bg-hover: var(--color-neutral-lighter);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--tracking-heading);
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-body);
+}
+
+/* ---------- Reusable type utilities ---------- */
+.zds-eyebrow {
+  font-family: var(--font-body);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-medium);
+  line-height: var(--lh-body);
+}
+
+.zds-h1 { font-size: var(--fs-h1); line-height: var(--lh-h1); }
+.zds-h2 { font-size: var(--fs-h2); line-height: var(--lh-h2); }
+.zds-h3 { font-size: var(--fs-h3); line-height: var(--lh-h3); }
+.zds-h4 { font-size: var(--fs-h4); line-height: var(--lh-h4); }
+.zds-h5 { font-size: var(--fs-h5); line-height: var(--lh-h5); }
+.zds-h6 { font-size: var(--fs-h6); line-height: var(--lh-h6); }
+.zds-text-large   { font-size: var(--fs-large); line-height: var(--lh-body); }
+.zds-text-medium  { font-size: var(--fs-medium); line-height: var(--lh-body); }
+.zds-text-regular { font-size: var(--fs-regular); line-height: var(--lh-body); }
+.zds-text-small   { font-size: var(--fs-small); line-height: var(--lh-body); }
+
+@media (max-width: 991px) {
+  .zds-h1 { font-size: var(--fs-h1-mobile); }
+  .zds-h2 { font-size: var(--fs-h2-mobile); }
+  .zds-h3 { font-size: var(--fs-h3-mobile); }
+  .zds-h4 { font-size: var(--fs-h4-mobile); }
+  .zds-h5 { font-size: var(--fs-h5-mobile); }
+  .zds-h6 { font-size: var(--fs-h6-mobile); }
+}
+
+/* ---------- Layout helpers ---------- */
+.zds-container {
+  margin-inline: auto;
+  max-width: var(--container-xxl);
+  width: 100%;
+}
+
+.zds-section {
+  padding-block: var(--section-pad-y);
+  padding-inline: var(--page-gutter);
+}
+@media (min-width: 768px)  { .zds-section { padding-block: var(--section-pad-y-md); } }
+@media (min-width: 992px)  { .zds-section { padding-block: var(--section-pad-y-lg); } }

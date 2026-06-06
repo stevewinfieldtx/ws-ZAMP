@@ -1,0 +1,109 @@
+/* ZAMP Funds — Core component styles.
+   Extracted verbatim from the design-system component definitions
+   (Button, Badge, Card, Input, Avatar, Stat, Accordion) so the static
+   markup renders identically without React. All color reads from scheme vars. */
+
+/* ---------------- Button ---------------- */
+.zds-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 0.625rem; white-space: nowrap; cursor: pointer;
+  font-family: var(--font-heading); font-weight: var(--fw-medium);
+  border: var(--border-width) solid transparent;
+  border-radius: var(--radius-button);
+  transition: var(--transition-control);
+  text-decoration: none; line-height: 1;
+}
+.zds-btn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.zds-btn:disabled, .zds-btn[aria-disabled="true"] { pointer-events: none; opacity: 0.5; }
+.zds-btn:active { transform: translateY(0.5px); }
+.zds-btn--sm { padding: 0.4rem 1rem; font-size: var(--fs-small); }
+.zds-btn--md { padding: 0.625rem 1.5rem; font-size: var(--fs-regular); }
+.zds-btn--lg { padding: 0.85rem 2rem; font-size: var(--fs-medium); }
+.zds-btn--primary { background: var(--scheme-btn-bg); color: var(--scheme-btn-text); border-color: var(--scheme-btn-bg); }
+.zds-btn--primary:hover { background: var(--scheme-btn-bg-hover); border-color: var(--scheme-btn-bg-hover); }
+.zds-btn--accent { background: var(--color-torea-bay); color: var(--color-white); border-color: var(--color-torea-bay); }
+.zds-btn--accent:hover { background: var(--color-torea-bay-dark); border-color: var(--color-torea-bay-dark); }
+.zds-btn--secondary { background: transparent; color: var(--scheme-text); border-color: var(--scheme-border); backdrop-filter: blur(10px); }
+.zds-btn--secondary:hover { background: var(--color-white-10); border-color: var(--color-neutral-lighter); }
+.zds-btn--link { background: transparent; border-color: transparent; color: var(--scheme-text); padding: 0; gap: 0.5rem; }
+.zds-btn--link:hover { opacity: 0.7; }
+
+/* ---------------- Badge ---------------- */
+.zds-badge {
+  display: inline-flex; align-items: center; gap: 0.375rem;
+  font-family: var(--font-body); font-weight: var(--fw-semibold);
+  font-size: var(--fs-small); line-height: 1;
+  padding: 0.375rem 0.625rem;
+  border-radius: var(--radius-badge);
+  border: var(--border-width) solid var(--scheme-border);
+  color: var(--scheme-text);
+}
+.zds-badge a { color: inherit; text-decoration: none; }
+.zds-badge--solid { background: var(--color-white); color: var(--color-neutral-darkest); border-color: var(--color-white); }
+.zds-badge--accent { background: transparent; border-color: var(--color-torea-bay-light); color: var(--color-torea-bay-light); }
+.zds-badge--tag { border-radius: var(--radius-tag); font-weight: var(--fw-medium); }
+
+/* ---------------- Card ---------------- */
+.zds-card {
+  border: var(--border-width) solid var(--scheme-border);
+  border-radius: var(--radius-card);
+  background: var(--scheme-surface);
+  color: var(--scheme-text);
+  overflow: hidden;
+  transition: border-color var(--dur-fast) var(--ease-standard);
+}
+.zds-card--hover:hover { border-color: var(--border-strong); }
+.zds-card__media { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.zds-card__body { padding: var(--space-6); }
+.zds-card__body > * + * { margin-top: var(--space-3); }
+
+/* ---------------- Input ---------------- */
+.zds-field { display: flex; flex-direction: column; gap: var(--space-2); }
+.zds-field__label { font-family: var(--font-body); font-weight: var(--fw-medium); font-size: var(--fs-small); color: var(--scheme-text); }
+.zds-input {
+  font-family: var(--font-body); font-size: var(--fs-regular); line-height: 1.4;
+  color: var(--scheme-text); background: var(--color-white-5);
+  border: var(--border-width) solid var(--scheme-border);
+  border-radius: var(--radius-input);
+  padding: 0.7rem 1rem; width: 100%;
+  transition: var(--transition-control); outline: none;
+}
+.zds-input::placeholder { color: var(--scheme-text-muted); }
+.zds-input:hover { border-color: var(--border-strong); }
+.zds-input:focus { border-color: var(--color-white); box-shadow: 0 0 0 3px var(--color-white-10); }
+.zds-input:disabled { opacity: 0.5; pointer-events: none; }
+textarea.zds-input { resize: vertical; min-height: 7rem; }
+
+/* ---------------- Avatar ---------------- */
+.zds-avatar { display: inline-flex; align-items: center; gap: var(--space-3); }
+.zds-avatar__img { border-radius: var(--radius-full); object-fit: cover; background: var(--color-neutral-dark); flex: none; }
+.zds-avatar__meta { display: flex; flex-direction: column; line-height: 1.35; }
+.zds-avatar__name { font-family: var(--font-body); font-weight: var(--fw-medium); color: var(--scheme-text); }
+.zds-avatar__role { font-family: var(--font-body); font-size: var(--fs-small); color: var(--scheme-text-muted); }
+
+/* ---------------- Stat ---------------- */
+.zds-stat { border-left: var(--border-width) solid var(--scheme-border); padding-left: var(--space-8); }
+.zds-stat--plain { border-left: none; padding-left: 0; }
+.zds-stat__value {
+  font-family: var(--font-heading); font-weight: var(--fw-bold);
+  letter-spacing: var(--tracking-heading);
+  font-size: clamp(3.25rem, 6vw, 5rem); line-height: 1.1;
+  color: var(--scheme-text); margin: 0 0 var(--space-2);
+}
+.zds-stat__label { font-family: var(--font-heading); font-weight: var(--fw-bold); font-size: var(--fs-h6); color: var(--scheme-text); margin: 0; }
+.zds-stat__sub { font-family: var(--font-body); font-weight: var(--fw-regular); font-size: var(--fs-regular); color: var(--scheme-text-muted); margin: var(--space-2) 0 0; }
+
+/* ---------------- Accordion ---------------- */
+.zds-accordion { border-top: var(--border-width) solid var(--scheme-border); }
+.zds-accordion__item { border-bottom: var(--border-width) solid var(--scheme-border); }
+.zds-accordion__trigger {
+  width: 100%; display: flex; align-items: center; justify-content: space-between; gap: var(--space-4);
+  background: transparent; border: none; cursor: pointer; text-align: left;
+  padding: var(--space-5) 0; color: var(--scheme-text);
+  font-family: var(--font-heading); font-weight: var(--fw-bold); font-size: var(--fs-h6);
+}
+.zds-accordion__icon { flex: none; transition: transform var(--dur-fast) var(--ease-standard); font-family: var(--font-body); font-size: 1.5rem; line-height: 1; }
+.zds-accordion__item[data-open="true"] .zds-accordion__icon { transform: rotate(45deg); }
+.zds-accordion__panel { overflow: hidden; max-height: 0; transition: max-height var(--dur-medium) var(--ease-standard); }
+.zds-accordion__item[data-open="true"] .zds-accordion__panel { max-height: 20rem; }
+.zds-accordion__panel-inner { padding: 0 0 var(--space-5); color: var(--scheme-text-muted); font-family: var(--font-body); font-size: var(--fs-regular); line-height: var(--lh-body); max-width: 48rem; }
