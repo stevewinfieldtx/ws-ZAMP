@@ -96,3 +96,29 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--focus-ring); ou
   .zk-progress { display: none; }
   .zk-pf-grid .zds-card:hover { transform: none; }
 }
+
+/* === Insights / video cards + footer social (added for Insights page & social links) === */
+.zk-chips { display:flex; flex-wrap:wrap; gap: var(--space-3); justify-content:center; margin-bottom: var(--space-10); }
+
+.zk-vid { position:relative; display:block; width:100%; aspect-ratio:16/9; border:0; padding:0; margin:0; cursor:pointer; background-color:#000; background-position:center; background-size:cover; background-repeat:no-repeat; overflow:hidden; }
+.zk-vid::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,.05), rgba(0,0,0,.4)); transition:opacity .3s; }
+.zk-vid:hover::after { opacity:.55; }
+.zk-vid__play { position:absolute; inset:0; margin:auto; width:3.5rem; height:3.5rem; border-radius:999px; background:rgba(13,10,5,.55); color:#fff; display:flex; align-items:center; justify-content:center; z-index:1; transition:background .2s, transform .2s; }
+.zk-vid__play .material-symbols-rounded { font-size:2rem; }
+.zk-vid:hover .zk-vid__play { background: var(--color-golden-tainoi, #ffd166); color:#0d0a05; transform:scale(1.08); }
+.zk-vid iframe { position:absolute; inset:0; width:100%; height:100%; border:0; z-index:2; }
+
+.zk-vid__quote { font-size: var(--fs-medium, 1.0625rem); line-height:1.5; color: var(--scheme-text); }
+.zk-vid__more { display:inline-flex; align-items:center; gap:.25rem; font-size: var(--fs-small); color: var(--scheme-text-muted); text-decoration:none; transition:color .2s; }
+.zk-vid__more:hover { color: var(--scheme-text); }
+.zk-vid__more .material-symbols-rounded { font-size:1rem; }
+
+.zk-footer__social { display:flex; flex-wrap:wrap; gap: var(--space-3); margin-top: var(--space-8); }
+.zk-social { display:inline-flex; align-items:center; justify-content:center; width:2.5rem; height:2.5rem; border-radius:999px; border:1px solid var(--scheme-border); color: var(--scheme-text); transition: background .2s, color .2s, border-color .2s, transform .2s; }
+.zk-social:hover { background: var(--color-white); color: var(--color-neutral-darkest); border-color: var(--color-white); transform: translateY(-2px); }
+.zk-social svg { width:1.15rem; height:1.15rem; fill: currentColor; display:block; }
+
+/* === Insights page: "Ask the assistant" CTA === */
+.zk-askcta { max-width: 46rem; margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; gap: var(--space-4); }
+.zk-askcta__icon { font-size: 2.75rem; color: var(--color-golden-tainoi, #ffd166); }
+.zk-askcta .zk-section-foot { margin-top: var(--space-4); }
