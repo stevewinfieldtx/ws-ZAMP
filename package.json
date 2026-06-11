@@ -1,7 +1,7 @@
 {
   "name": "zamp-funds-site",
   "version": "1.0.0",
-  "description": "ZAMP Funds — venture capital firm website. Static, dependency-free, deployable on Railway.",
+  "description": "ZAMP Funds, venture capital firm website. Static, dependency-free, deployable on Railway.",
   "private": true,
   "scripts": { "start": "node server.js" },
   "engines": { "node": ">=18" }

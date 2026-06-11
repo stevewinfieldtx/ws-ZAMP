@@ -1,4 +1,4 @@
-/* ZAMP marketing site — kit layout styles.
+/* ZAMP marketing site, kit layout styles.
    All color comes from scheme variables; this file is layout + composition only. */
 
 .zk-muted { color: var(--scheme-text-muted); }

@@ -1,4 +1,4 @@
-/* ZAMP Ventures — Base element defaults & helpers.
+/* ZAMP Ventures, Base element defaults & helpers.
    Sets the brand fonts on headings/body and seeds default scheme variables
    on :root so a stray component renders correctly even outside a scheme- block. */
 

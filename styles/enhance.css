@@ -1,4 +1,4 @@
-/* ZAMP Funds — Enhancement layer (static build).
+/* ZAMP Funds, Enhancement layer (static build).
    Premium interactivity on top of the faithful design. On-brand: warm-dark
    grounds, flat color, gold/teal accents, subtle functional motion.
    All effects respect prefers-reduced-motion. */
@@ -16,7 +16,7 @@ body { overflow-x: hidden; background-color: var(--color-neutral-darkest); }
 .zk-nav, main, .zk-footer { position: relative; z-index: 1; }
 
 /* Section grounds become slightly translucent so the constellation glimmers
-   through everywhere — text stays fully readable (particles are dim). */
+   through everywhere, text stays fully readable (particles are dim). */
 .scheme-1 { background-color: rgba(37, 34, 30, 0.84); }
 .scheme-2 { background-color: rgba(13, 10, 5, 0.80); }
 .scheme-3 { background-color: rgba(3, 18, 43, 0.82); }
@@ -122,3 +122,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--focus-ring); ou
 .zk-askcta { max-width: 46rem; margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; gap: var(--space-4); }
 .zk-askcta__icon { font-size: 2.75rem; color: var(--color-golden-tainoi, #ffd166); }
 .zk-askcta .zk-section-foot { margin-top: var(--space-4); }
+
+/* === Portfolio / "What we're building" cards === */
+.zk-pcard { height: 100%; }
+.zk-pcard__icon { font-size: 2.5rem; color: var(--color-golden-tainoi, #ffd166); }
+.zk-pcard__thesis { font-style: italic; color: var(--scheme-text); border-left: 2px solid var(--color-golden-tainoi, #ffd166); padding-left: var(--space-4); }

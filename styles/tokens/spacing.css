@@ -1,4 +1,4 @@
-/* ZAMP Ventures — Spacing, radii, shadow & layout tokens
+/* ZAMP Ventures, Spacing, radii, shadow & layout tokens
    UI style is "sleek": 12px control radius, 16px card/image radius, 1px borders. */
 
 :root {
@@ -18,7 +18,7 @@
   --space-28: 7rem;     /* 112 */
   --space-30: 7.5rem;   /* 120 */
 
-  /* Section rhythm — vertical padding per breakpoint */
+  /* Section rhythm, vertical padding per breakpoint */
   --section-pad-y: 4rem;       /* mobile  (py-16) */
   --section-pad-y-md: 6rem;    /* tablet  (py-24) */
   --section-pad-y-lg: 7rem;    /* desktop (py-28) */
@@ -38,7 +38,7 @@
   --border-width: 1px;
   --border-width-strong: 2px;
 
-  /* ---------- Shadows (used sparingly — the system is outlined, not elevated) */
+  /* ---------- Shadows (used sparingly, the system is outlined, not elevated) */
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
   --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
   --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.45);

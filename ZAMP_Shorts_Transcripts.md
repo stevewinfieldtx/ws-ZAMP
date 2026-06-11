@@ -1,4 +1,4 @@
-# Zamp Hedge — YouTube Shorts Transcripts
+# Zamp Hedge, YouTube Shorts Transcripts
 
 *54 shorts from [@ZampHedge/shorts](https://www.youtube.com/@ZampHedge/shorts) · 53 with spoken dialogue · ~5,774 words total · auto-captions, lightly cleaned*
 
@@ -136,7 +136,7 @@ We also have spoken to a company that found me through Davos in my attendance at
 
 I, I said to myself a few years ago it's not, it's not about what you accomplish, right? Cuz I've ever, I've done everything. Career-wise. Professionally, um, I, it's now my time to give back. Just like when I was starting at IBM. And Paul and Paul and Paul Mugge and Paul Aspinwall and Mark Hunzany and Marge Spence and good old Bob, um, they all, they all helped me tremendously. They spent hours upon hours and they didn't have to. But, uh, they too lived a really and had an amazing career. And so they educated me on the, the world, the history of, of computing, the world of IBM, the competition, where it was going. And so I'm helping Lauren realize her career aspirations and dreams and that makes me feel really good.
 
-### AI. Robotics. Autonomy. The next wave of industry isn’t coming — it’s already here.
+### AI. Robotics. Autonomy. The next wave of industry isn’t coming, it’s already here.
 [▶ Watch](https://www.youtube.com/watch?v=lVvZAVFDSqY)  ·  70 words
 
 I am talking to an individual that I worked with when I was at Ingram. Brian, who's in the Dallas-Fort Worth area, about coming on board to run the new company and the 50 different patents and innovations that we have. I would say that we are maturing as a company, as an organization. It's the same focus around AI, robotics, autonomy, next-gen networking industry, AI plays, functional AI plays.
@@ -151,7 +151,7 @@ I've also been fortunate where I've met one of the smartest individuals I've eve
 
 At the very basic level, you have land. Right? You have to acquire, develop, commercialize the land. At the very top of the A model, you have applications and services. So, you could have a a sales application that is very very focused on a business function. You could have industry specializations, applications and services. Could have one for healthcare, one for legal, one for manufacturing, one for retail.
 
-### Invest like the pros 🚀 It’s not just about money — it’s about people, stories, and the future
+### Invest like the pros 🚀 It’s not just about money, it’s about people, stories, and the future
 [▶ Watch](https://www.youtube.com/watch?v=jG3oNo3g4Es)  ·  104 words
 
 We also view um autonomy, robots, we we view e-commerce, we view nextgen wireless as huge thematic opportunities for us and our investors. I I I am a hardcore podcast listener. I've been listening to podcasts ever since they came out. And I've uh been traveling an extensive fair amount of time. And so when I'm on the road, I listen to podcasts. And so I've been educated. I've listened to all the most successful venture capitalists, the hedge fund managers, the private equity managers, and what they espouse is very true. You're you're betting you're betting on people. You're betting on a story.
@@ -175,7 +175,7 @@ I haven't felt this good in in decades. And the Saturday after I had the knee dr
 
 Do you know that any disease out there begins with the letter I? Because the more people we help, the faster, the better, we're going to have better humanity, fix the obese population. We're over 65% getting reaching I think we're almost there near 70 of morbidly obesity. is an epidemic. What is killing people? The letter I, inflammation. is preventable. It's the number one cause of disease. Do you know that any disease out there begins with the letter I? Inflammation.
 
-### House of Healing — 30 Years of Pain-Free Patient Care
+### House of Healing, 30 Years of Pain-Free Patient Care
 [▶ Watch](https://www.youtube.com/watch?v=m_HDvC9-riU)  ·  104 words
 
 The clinic I created is my house of healing. I love it. Everyone there becomes family. These patients have been with me 20 and 30 years. I have over 10 people in their 90s that said to me when they were 60, "Please let me live to 90 pain free. I want to still go to Disney World. I want to go on my yacht. I still want to go walking at the beach and go to dinner." And that's what I created. So, I've got a lot of electrical modalities, ultrasound guided, you name it, it's there. It's a phenomenal house of healing.
@@ -239,7 +239,7 @@ They have a great story. They have unique and differentiated technology. And the
 
 A great example is we have a phenomenal marketing agency we're working with here in Naples. Chris and the Merlin team need help from a marketing standpoint. They need strong PowerPoint slides. They need strong visuals and pictures to represent a very complex set of technology. GPS, TPS, how do we make that simple so that potential investors and customers can understand what they do and the value they bring to the table? My my marketing agency is at their service. I've already had conversations with the marketing agency. Spoke to Chris. He's on board with it. We're going to help them. I'm going to help them find the best CMO, the best CTO. I'm going to leverage my contacts. I have a great friend over in Miami that has her own head hunter firm. And you know, I said, "Chris, meet Coley. Coley, meet Chris. He needs developers. He needs a CTO. he needs a CMO and they're off to the races. So, in summary, in aggregate, it's it's I'm a consultant. I'm at your beck and call. I will do whatever it takes to help you be successful. I will leverage my network and I will I will help you help you improve your game, your skill set and help you scale your
 
-### Investing in the architecture behind AI isn’t a trend — it’s the foundation of what’s next.
+### Investing in the architecture behind AI isn’t a trend, it’s the foundation of what’s next.
 [▶ Watch](https://www.youtube.com/watch?v=oLXvmN07n9o)  ·  276 words
 
 When you look at artificial intelligence, it's important to understand the the architecture or autonomy of artificial intelligence. At the very basic level, you have land, right? You have to acquire, develop, commercialize the land. At the very top of the AI model, you have applications and services. So you could have a a sales application that is very very focused on a business function. You could have industry specializations applications and services. Could have one for healthcare, one for legal, one for manufacturing, one for retail. And what we what we see with artificial intelligence is the same thing that we've seen throughout the history of computing. So when client server technology came out, when the internet came out, you know, you have the likes of Microsoft and Salesforce and workday, the same thing is happening with chat GPT. The same thing is happening with Gemini, with Anthropic, with Copilot. They are building these functional services and applications for marketing and sales. They're building industry focused applications and services for healthcare and legal. And so we see the same thing happening. And in between there you have the software and then the actual hardware compute network storage layer. And below that you have the actual chips where where Nvidia dominates. AMD's right up there with Nvidia. And then you have other flavors and derivations. And so that's the AI structure that we see in the market. and we're going to pick the best breed companies and stocks in that that architecture. And then we also view autonomy, robots, we we view e-commerce, we view nextgen wireless as huge thematic opportunities for us and our investors.
@@ -247,7 +247,7 @@ When you look at artificial intelligence, it's important to understand the the a
 ### Zamp Hedge & Venture Funds is built for those who think long-term 📈
 [▶ Watch](https://www.youtube.com/watch?v=i55R4Y-DSzg)  ·  0 words
 
-(No spoken dialogue — on-screen text/branding with music only.)
+(No spoken dialogue, on-screen text/branding with music only.)
 
 ---
 
@@ -268,7 +268,7 @@ I think from my standpoint, based on the deal flow we're seeing, the valuations 
 
 Making a difference, making a positive impact in the world, the community, and giving back to others. I was recently with Lauren and Michael in Fort Myers at the distillery that Michael's been working with for many years. And as I saw Lauren interact with the the two principals in the distillery, it warmed my heart because I I was able to take somebody that was working for a really good organization, but yet her dream, her career aspiration was to be a CEO. And so, I've enabled that.
 
-### The best investments don’t start with numbers — they start with ideas, people, and a killer story 🚀
+### The best investments don’t start with numbers, they start with ideas, people, and a killer story 🚀
 [▶ Watch](https://www.youtube.com/watch?v=ckKox5O0lsc)  ·  70 words
 
 Do they have something unique? Do they have good people? Do they have a good story? That's what I look for. Think about stories. You're going to be in front of potential investors and influencers and you have to have a story. That story could be 5 seconds, 30 seconds, could be a minute, could be five minutes. You have a very limited amount of time. So what is your

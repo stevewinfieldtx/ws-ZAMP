@@ -1,12 +1,12 @@
-/* ZAMP Ventures — Color schemes
+/* ZAMP Ventures, Color schemes
    Sections adopt a scheme class that sets ground, text, and border in one move.
    All three schemes are dark with white text; they create rhythm by alternating
    warm-brown, warm-black, and deep-navy grounds. Child components read the
    --scheme-* variables so they recolor automatically.
 
-   scheme-1  warm brown  (#25221e)   — most sections, "default" ground
-   scheme-2  warm black  (#0d0a05)   — nav, hero, footer, emphasis
-   scheme-3  deep navy   (#03122b)   — accent / spotlight sections */
+   scheme-1  warm brown  (#25221e), most sections, "default" ground
+   scheme-2  warm black  (#0d0a05), nav, hero, footer, emphasis
+   scheme-3  deep navy   (#03122b), accent / spotlight sections */
 
 .scheme-1,
 .scheme-2,

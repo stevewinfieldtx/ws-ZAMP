@@ -1,4 +1,4 @@
-/* ZAMP Funds — Core component styles.
+/* ZAMP Funds, Core component styles.
    Extracted verbatim from the design-system component definitions
    (Button, Badge, Card, Input, Avatar, Stat, Accordion) so the static
    markup renders identically without React. All color reads from scheme vars. */

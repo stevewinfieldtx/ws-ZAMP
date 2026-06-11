@@ -1,4 +1,4 @@
-/* ZAMP Ventures — Color tokens
+/* ZAMP Ventures, Color tokens
    A warm dark theme: near-black + warm brown grounds, deep-navy accent ground,
    and four chromatic families (Torea Bay blue, Punch coral, Gossamer teal,
    Golden Tainoi gold). Every scale runs lightest → darkest. */
@@ -14,7 +14,7 @@
   --color-neutral-darker: #25221e;   /* warm brown ground */
   --color-neutral-darkest: #0d0a05;  /* warm near-black ground */
 
-  /* ---------- Torea Bay — primary brand blue ---------- */
+  /* ---------- Torea Bay, primary brand blue ---------- */
   --color-torea-bay-lightest: #e6ebf4;
   --color-torea-bay-lighter: #ced8e9;
   --color-torea-bay-light: #5477b2;
@@ -23,7 +23,7 @@
   --color-torea-bay-darker: #04183a;
   --color-torea-bay-darkest: #03122b; /* deep-navy section ground */
 
-  /* ---------- Punch — coral / energy ---------- */
+  /* ---------- Punch, coral / energy ---------- */
   --color-punch-lightest: #fbede9;
   --color-punch-lighter: #f7dbd4;
   --color-punch-light: #e4836a;
@@ -32,7 +32,7 @@
   --color-punch-darker: #561f11;
   --color-punch-darkest: #41170c;
 
-  /* ---------- Gossamer — teal / growth ---------- */
+  /* ---------- Gossamer, teal / growth ---------- */
   --color-gossamer-lightest: #e6f6f1;
   --color-gossamer-lighter: #ceede4;
   --color-gossamer-light: #54c0a0;
@@ -41,7 +41,7 @@
   --color-gossamer-darker: #044230;
   --color-gossamer-darkest: #033124;
 
-  /* ---------- Golden Tainoi — gold / highlight ---------- */
+  /* ---------- Golden Tainoi, gold / highlight ---------- */
   --color-golden-tainoi-lightest: #fffaef;
   --color-golden-tainoi-lighter: #fff5e0;
   --color-golden-tainoi-light: #ffde93;
