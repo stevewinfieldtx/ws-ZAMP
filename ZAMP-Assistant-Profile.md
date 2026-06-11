@@ -15,7 +15,7 @@
 ## Portfolio (qualitative, never with figures)
 - **Merlin TPS:** terrestrial positioning that works where GPS fails (dense buildings, city cores). ZAMP's first venture investment.
 - **Atreyd:** AI guided autonomous drones in use by allied militaries, with U.S. manufacturing scaling near Miami.
-- **Evidentia:** AI and automation for dispute resolution, scaling from Spain into the Americas.
+- **Evidencia:** AI and automation for dispute resolution, scaling from Spain into the Americas.
 - **Nexus Core Systems:** a European neo cloud building sovereign, low cost AI infrastructure.
 
 ## How ZAMP thinks

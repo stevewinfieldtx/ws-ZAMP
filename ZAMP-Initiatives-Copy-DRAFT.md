@@ -46,7 +46,7 @@ Beyond its flagship positions, ZAMP runs a frontier venture strategy backing ear
 - **$200K** invested in January at a **$10M** valuation; company now valued at **~$100M** → **~10x in 6 months** ($200K → ~$2M).
 - Hardware-to-software transition with Intel, targeted completion end of July; then scalable across drone, delivery-robot, and autonomous-vehicle companies.
 
-**Evidentia**, AI dispute resolution; scaling from Spain into South America and the U.S. No figures disclosed.
+**Evidencia**, AI dispute resolution; scaling from Spain into South America and the U.S. No figures disclosed.
 
 **Nexus Core Systems** (from ZAMP's earlier note; not mentioned in the interview)
 - Raise: $50M · valuation ~$750M → projected ~$3.5B next year · ex-NVIDIA VP EMEA Sales as CEO · low-cost energy (Morocco, Norway, Sweden, soon Turkey) · 5 hyperscalers/neo-clouds for Q3 close.
