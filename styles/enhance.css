@@ -127,3 +127,18 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--focus-ring); ou
 .zk-pcard { height: 100%; }
 .zk-pcard__icon { font-size: 2.5rem; color: var(--color-golden-tainoi, #ffd166); }
 .zk-pcard__thesis { font-style: italic; color: var(--scheme-text); border-left: 2px solid var(--color-golden-tainoi, #ffd166); padding-left: var(--space-4); }
+
+/* === Newsroom list === */
+.zk-newslist { max-width: 62rem; margin: 0 auto; display: grid; gap: var(--space-6); }
+.zk-newslist .zds-card__body > * + * { margin-top: var(--space-3); }
+
+/* === Investor Access gate (For Investors page) === */
+.zk-access { max-width: 54rem; }
+.zk-access__gate { margin-top: var(--space-6); display: flex; flex-direction: column; gap: var(--space-5); align-items: flex-start; }
+.zk-access__check { display: flex; gap: var(--space-3); align-items: flex-start; font-size: var(--fs-small); line-height: 1.5; color: var(--scheme-text-muted); max-width: 46rem; cursor: pointer; }
+.zk-access__check input { margin-top: 0.18rem; flex: none; width: 1.1rem; height: 1.1rem; accent-color: var(--accent-gold, #ffd166); cursor: pointer; }
+.zds-btn.is-disabled { opacity: .4; pointer-events: none; filter: grayscale(0.4); }
+
+/* === Investor Access nav highlight === */
+.zk-nav__link--accent { color: var(--accent-gold, #ffd166) !important; font-weight: var(--fw-bold, 700); }
+.zk-nav__link--accent:hover { opacity: .85; }
